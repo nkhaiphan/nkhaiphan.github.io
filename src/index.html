@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body>
+    <div
+      class="sm:grid sm:grid-cols-main-layout sm:grid-rows-1 sm:min-h-screen sm:max-h-screen overflow-hidden"
+    >
+      <nav
+        class="absolute hidden sm:visible sm:static sm:pl-8 sm:flex sm:flex-col sm:items-start sm:justify-center no-underline text-[#67666A] font-mono font-thin text-lg text-left sm:text-center sm:max-h-screen py-4 bg-[#1E1E1F] list-none"
+      >
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#welcome" class="">Bienvenu</a>
+        </li>
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#about" class="">À propos de moi</a>
+        </li>
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#projects" class="">Projets</a>
+        </li>
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#skills" class="">Compétences</a>
+        </li>
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#education" class="">Éducation</a>
+        </li>
+      </nav>
+      <main class="min-h-screen bg-[#1E1E1F] overflow-scroll">
+        <section
+          id="welcome"
+          class="min-h-screen flex flex-col items-center justify-center"
+        >
+          <span class="text-[#CBC9CF] font-thin text-4xl italic"
+            >Nguyen Khai PHAN</span
+          >
+          <span
+            class="font-mono p-4 text-[#67666A] font-thin text-base tracking-wider"
+            >Étudiant en informatique à l'ETNA</span
+          >
+          <span
+            class="font-mono p-4 pt-0 text-[#67666A] font-thin text-base tracking-wider italic"
+            >"Rigueur, Adaptabilité, Informatique en Équipe."</span
+          >
+        </section>
+        <section id="about" class="min-h-screen"></section>
+        <section id="projects" class="min-h-screen flex flex-col items-start">
+          <span class="py-4 pl-4 font-thin text-5xl italic text-[#CBC9CF]"
+            >Mes Projets</span
+          >
+          <article class="px-4 flex flex-col items-start justify-start flex-grow">
+            <span class="pt-4 font-bold text-xl text-[#CBC9CF] block"
+              >KRYP-Ticket</span
+            >
+            <span class="font-base italic text-[#807F83] block"
+              >Un site communautaire (développé avec un autre collaborateur) ayant
+              pour but l'entraide au sein de ma promotion</span
+            >
+            <a href="https://kryp-ticket.vercel.app" target="_blank" class="mt-2 p-2 border bg-transparent font-thin text-base italic hover:bg-white hover:text-[#1E1E1F] duration-500 text-[#CBC9CF]">Découvrir ce projet</a>
+          </article>
+        </section>
+        <section id="skills" class="min-h-screen"></section>
+        <section id="education" class="min-h-screen"></section>
+      </main>
+    </div>
+  </body>
+</html>
