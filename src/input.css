@@ -5,4 +5,9 @@
 
 main {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
 }
