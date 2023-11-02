@@ -6,6 +6,9 @@ module.exports = {
       gridTemplateColumns: {
         "main-layout": "max(200px, 30%) 1fr",
       },
+      textUnderlineOffset: {
+        16: "16px",
+      }
     },
   },
   plugins: [],

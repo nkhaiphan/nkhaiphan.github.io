@@ -16,7 +16,7 @@
         <li
           class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
         >
-          <a href="#welcome" class="">Bienvenu</a>
+          <a href="#welcome" class="">Bienvenue</a>
         </li>
         <li
           class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
@@ -38,17 +38,23 @@
         >
           <a href="#education" class="">Éducation</a>
         </li>
+        <li
+          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
+        >
+          <a href="#contact" class="">Contact</a>
+        </li>
       </nav>
       <main class="min-h-screen bg-[#1E1E1F] overflow-scroll">
         <section
           id="welcome"
           class="min-h-screen flex flex-col items-center justify-center"
         >
-          <span class="text-[#CBC9CF] font-thin text-4xl italic"
+          <span
+            class="py-3 text-[#CBC9CF] font-bold text-6xl italic"
             >Nguyen Khai PHAN</span
           >
           <span
-            class="font-mono p-4 text-[#67666A] font-thin text-base tracking-wider"
+            class="font-mono p-4 pt-0 text-[#67666A] font-thin text-base tracking-wider"
             >Étudiant en informatique à l'ETNA</span
           >
           <span
@@ -56,24 +62,174 @@
             >"Rigueur, Adaptabilité, Informatique en Équipe."</span
           >
         </section>
-        <section id="about" class="min-h-screen"></section>
+        <section id="about" class="min-h-screen flex flex-col items-start">
+          <span
+            class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+            >À propos</span
+          >
+          <div class="py-8 px-4 text-xl font-thin font-mono text-[#CBC9CF]">
+            <p>
+              Je suis actuellement en recherche d'alternance dans le domaine du dévelopement informatique.
+            </p>
+            <br>
+            <p>
+              Venant d'un Baccalauréat général avec spécialités Mathématiques et Sciences économiques et sociales. 
+            </p>
+            <br>
+            <p>
+              Je suis actuellement étudiant en année préparatoire à l'Ecole des Technologies Numériques Avancées (ETNA)
+            </p>
+            <br>
+            <p class="text-[#67666A] italic">
+              Je suis disponible en freelance également!
+            </p>
+          </div>
+        </section>
         <section id="projects" class="min-h-screen flex flex-col items-start">
-          <span class="py-4 pl-4 font-thin text-5xl italic text-[#CBC9CF]"
+          <span
+            class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
             >Mes Projets</span
           >
-          <article class="px-4 flex flex-col items-start justify-start flex-grow">
+          <article
+            class="py-8 px-4 flex flex-col items-start justify-start flex-grow"
+          >
             <span class="pt-4 font-bold text-xl text-[#CBC9CF] block"
               >KRYP-Ticket</span
             >
             <span class="font-base italic text-[#807F83] block"
-              >Un site communautaire (développé avec un autre collaborateur) ayant
-              pour but l'entraide au sein de ma promotion</span
+              >Un site communautaire (développé avec un autre collaborateur)
+              ayant pour but l'entraide au sein de ma promotion</span
             >
-            <a href="https://kryp-ticket.vercel.app" target="_blank" class="mt-2 p-2 border bg-transparent font-thin text-base italic hover:bg-white hover:text-[#1E1E1F] duration-500 text-[#CBC9CF]">Découvrir ce projet</a>
+            <div class="flex flex-row justify-end w-full">
+              <a
+                href="https://kryp-ticket.vercel.app"
+                target="_blank"
+                class="mt-2 p-2 border bg-transparent font-thin text-base italic hover:bg-white hover:text-[#1E1E1F] duration-500 text-[#CBC9CF]"
+                >Découvrir ce projet</a
+              >
+            </div>
           </article>
         </section>
-        <section id="skills" class="min-h-screen"></section>
-        <section id="education" class="min-h-screen"></section>
+        <section id="skills" class="min-h-screen">
+          <article class="w-full flex flex-col items-start justify-start">
+            <span
+              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+              >Soft-Skills</span
+            >
+            <ul class="w-full py-8 px-4">
+              <li>
+                <span class="text-lg text-[#CBC9CF] font-semibold"
+                  >Polyvalence</span
+                >
+                <p class="p-4 w-9/12 font-mono text-base italic text-[#67666A]">
+                  Faisant partie de l'association caritative "Salydarité" de mon
+                  lycée, j'ai développé des compétences d'organisation, de
+                  communication, de leadership et de responsabilité.
+                </p>
+              </li>
+              <li>
+                <span class="text-lg text-[#CBC9CF] font-semibold"
+                  >Travail d'équipe</span
+                >
+                <p class="p-4 w-9/12 font-mono text-base italic text-[#67666A]">
+                  J'ai développé un fort esprit d'équipe durant mes 3 années au
+                  sein de l'option Théâtre ainsi que de l'association au lycée
+                </p>
+              </li>
+              <li>
+                <span class="text-lg text-[#CBC9CF] font-semibold"
+                  >Langues</span
+                >
+                <ul class="p-4 w-9/12 font-mono text-base italic text-[#67666A]">
+                  <li>Français - Bilingue</li>
+                  <li>Vietnamien - Langue maternelle</li>
+                  <li>Anglais - Bilingue</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+          <article class="w-full flex flex-col items-start justify-start">
+            <span
+              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+              >Technique</span
+            >
+            <ul class="w-full py-8 flex flex-col px-4">
+              <li class="inline-block">
+                <span class="text-lg text-[#CBC9CF] font-semibold">Python<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+                - Opérationnel
+              </span>
+            </li>
+            <li class="inline-block">
+              <span class="text-lg text-[#CBC9CF] font-semibold">TypeScript / JavaScript<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+                - Opérationnel
+              </span>
+            </li>
+            <li class="inline-block mb-4">
+              <span class="text-lg text-[#CBC9CF] font-semibold">C#<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Notions
+              </span>
+            </li>
+            <li class="inline-block">
+              <span class="text-lg text-[#CBC9CF] font-semibold">HTML / CSS / PHP<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Opérationnel
+              </span>
+            </li>
+            <li class="inline-block mb-4">
+              <span class="text-lg text-[#CBC9CF] font-semibold">NEXT.js<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Connaissances
+              </span>
+            </li>
+            <li class="inline-block mb-4">
+              <span class="text-lg text-[#CBC9CF] font-semibold">MySQL / MariaDB / PostgreSQL<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Opérationnel
+              </span>
+            </li>
+            <li class="inline-block">
+              <span class="text-lg text-[#CBC9CF] font-semibold">Bash<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Opérationnel
+              </span>
+            </li>
+            <li class="inline-block">
+              <span class="text-lg text-[#CBC9CF] font-semibold">Linux<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Opérationnel
+              </span>
+            </li>
+            </ul>
+          </article>
+        </section>
+        <section id="education" class="min-h-screen">
+          <article class="w-full flex flex-col items-start justify-start">
+            <span
+              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+              >Éducation</span
+            >
+            <ul class="text-2xl text-[#CBC9CF] font-semibold">
+              <li class="w-full py-8 flex flex-col justify-start">
+                <span class="px-4">Chargé de projets informatiques <span class="font-mono text-base font-thin text-[#67666A]">| BAC+2</span></span>
+                <span class="px-4 font-thin font-mono text-[#67666A] text-lg italic">ETNA - École des Technologies Numériques Avancées - 94200 Ivry-sur-Seine</span>
+              </li>
+              <li class="w-full py-8 flex flex-col justify-start">
+                <span class="px-4">Baccalauréat général <span class="font-mono text-base font-thin text-[#67666A]">| BAC</span></span>
+                <p class="ml-8 text-base font-thin font-mono text-[#67666A]">Spécialités: Mathématiques, Sciences Économiques et Sociales | Options: Maths expertes, Théâtre</p>
+                <span class="px-4 font-thin font-mono text-[#67666A] text-lg italic">LGT André Boulloche - 93190 Livry-Gargan</span>
+              </li> 
+            </ul>
+          </article>
+        </section>
+        <section id="contact" class="min-h-screen">
+          <article class="w-full flex flex-col items-start justify-start">
+            <span
+              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+              >Contact</span
+            >
+            <ul class="py-8 px-4 text-xl text-[#67666A] font-semibold font-mono">
+              <li>Téléphone: <a class="hover:text-[#CBC9CF] duration-300" href="tel:+33766297769">07 66 29 77 69</a></li>
+              <li>Email: <a class="hover:text-[#CBC9CF] duration-300" href="mailto:phan_n@etna-alternance.net">phan_n@etna-alternance.net</a></li>
+              <li>LinkedIn: <a class="hover:text-[#CBC9CF] duration-300" href="https://www.linkedin.com/in/nguyen-khai-phan-6b3194212" target="_blank">Nguyen Khai PHAN</a></li>
+              <li>Instagram: <a class="hover:text-[#CBC9CF] duration-300" href="https://www.instagram.com/khai.iv/" target="_blank">@khai.iv</a></li>
+            </ul>
+          </article>          
+        </section>
       </main>
     </div>
   </body>
