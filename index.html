@@ -11,43 +11,32 @@
       class="sm:grid sm:grid-cols-main-layout sm:grid-rows-1 sm:min-h-screen sm:max-h-screen overflow-hidden"
     >
       <nav
-        class="absolute hidden sm:visible sm:static sm:pl-8 sm:flex sm:flex-col sm:items-start sm:justify-center no-underline text-[#67666A] font-mono font-thin text-lg text-left sm:text-center sm:max-h-screen py-4 bg-[#1E1E1F] list-none"
+    background-color: #0D0C0A;
+        class="absolute hidden sm:visible sm:static sm:pl-8 sm:flex sm:flex-col sm:items-start sm:justify-center no-underline text-[#67666A] font-mono font-thin text-lg text-left sm:text-center sm:max-h-screen py-4 bg-[#0D0C0A] list-none"
       >
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#welcome" class="">Bienvenue</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#welcome" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">Bienvenue</a>
         </li>
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#about" class="">À propos de moi</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#about" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">À propos de moi</a>
         </li>
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#projects" class="">Projets</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#projects" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">Projets</a>
         </li>
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#skills" class="">Compétences</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#skills" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">Compétences</a>
         </li>
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#education" class="">Éducation</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#education" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">Éducation</a>
         </li>
-        <li
-          class="p-2 pl-4 hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] duration-300"
-        >
-          <a href="#contact" class="">Contact</a>
+        <li class="py-2 w-full overflow-x-hidden whitespace-nowrap flex flex-row justify-start">
+          <a href="#contact" class="pr-80 px-2 py-1 pl-4 text-start hover:italic hover:underline hover:decoration-2 hover:underline-offset-4 hover:text-[#CBC9CF] hover:bg-[#1E1E1F] hover:border-0 hover:rounded-sm duration-300">Contact</a>
         </li>
       </nav>
-      <main class="min-h-screen bg-[#1E1E1F] overflow-scroll">
+      <main class="min-h-screen bg-[#0D0C0A] overflow-scroll overflow-x-hidden">
         <section
           id="welcome"
-          class="min-h-screen flex flex-col items-center justify-center"
+          class="min-h-screen flex flex-col items-center justify-center target:animate-fade-in-tb-3"
         >
           <span
             class="py-3 px-4 text-[#CBC9CF] font-bold text-6xl italic"
@@ -62,34 +51,34 @@
             >"Rigueur, Adaptabilité, Informatique en Équipe."</span
           >
         </section>
-        <section id="about" class="min-h-screen flex flex-col items-start">
-          <span
-            class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-            >À propos</span
-          >
+        <section id="about" class="min-h-screen flex flex-col items-start target:animate-fade-in">
+          <div class="w-full flex flex-row justify-center px-12">
+            <span
+              class="py-4 w-full text-center font-thin text-5xl italic text-[#CBC9CF] border-b-4 pb-8"
+              >À propos</span
+            >
+          </div>
           <div class="py-8 px-4 text-xl font-thin font-mono text-[#CBC9CF]">
             <p>
-              Je suis actuellement en recherche d'alternance dans le domaine du dévelopement informatique.
+              Passionné par l'univers tech, je suis à la recherche d'alternance dans le domaine du dévelopement informatique.
             </p>
             <br>
             <p>
-              Venant d'un Baccalauréat général avec spécialités Mathématiques et Sciences économiques et sociales. 
+              Actuellement, je suis étudiant en année préparatoire à l'Ecole des Technologies Numériques Avancées (ETNA).
             </p>
             <br>
-            <p>
-              Je suis actuellement étudiant en année préparatoire à l'Ecole des Technologies Numériques Avancées (ETNA)
-            </p>
-            <br>
-            <p class="text-[#67666A] italic">
-              Je suis disponible en freelance également!
+            <p class="text-[#67666A] italic pt-16">
+              Je suis disponible en freelance également! <a href="#contact" class="hover:underline hover:underline-offset-4">Contactez-moi :)</a>
             </p>
           </div>
         </section>
-        <section id="projects" class="min-h-screen flex flex-col items-start">
-          <span
-            class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-            >Mes Projets</span
-          >
+        <section id="projects" class="min-h-screen flex flex-col items-start target:animate-fade-in">
+          <div class="w-full flex flex-row justify-center px-12">
+            <span
+              class="py-4 w-full text-center font-thin text-5xl italic text-[#CBC9CF] border-b-4 pb-8 "
+              >Mes Projets</span
+            >
+          </div>
           <article
             class="py-8 px-4 flex flex-col items-start justify-start flex-grow"
           >
@@ -110,12 +99,14 @@
             </div>
           </article>
         </section>
-        <section id="skills" class="min-h-screen">
+        <section id="skills" class="min-h-screen target:animate-fade-in">
           <article class="w-full flex flex-col items-start justify-start">
-            <span
-              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-              >Soft-Skills</span
-            >
+            <div class="w-full flex flex-row justify-center px-12">
+              <span
+                class="py-4 w-full text-center font-thin text-5xl italic text-[#CBC9CF] border-b-4 pb-8 "
+                >Soft-Skills</span
+              >
+            </div>
             <ul class="w-full py-8 px-4">
               <li>
                 <span class="text-lg text-[#CBC9CF] font-semibold"
@@ -149,10 +140,12 @@
             </ul>
           </article>
           <article class="w-full flex flex-col items-start justify-start">
-            <span
-              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-              >Technique</span
-            >
+            <div class="w-full flex flex-row justify-center px-12">
+              <span
+                class="py-4 w-full text-center font-thin text-5xl italic text-[#CBC9CF] border-b-4 pb-8 "
+                >Technique</span
+              >
+            </div>
             <ul class="w-full py-8 flex flex-col px-4">
               <li class="inline-block">
                 <span class="text-lg text-[#CBC9CF] font-semibold">Python<span class="w-9/12 font-mono text-base text-[#67666A] italic">
@@ -194,40 +187,58 @@
               - Opérationnel
               </span>
             </li>
+            <li class="inline-block">
+              <span class="text-lg text-[#CBC9CF] font-semibold">Git<span class="w-9/12 font-mono text-base text-[#67666A] italic">
+              - Opérationnel
+              </span>
+            </li>
             </ul>
           </article>
         </section>
-        <section id="education" class="min-h-screen">
+        <section id="education" class="min-h-screen target:animate-fade-in">
           <article class="w-full flex flex-col items-start justify-start">
-            <span
-              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-              >Éducation</span
-            >
+            <div class="w-full flex flex-row justify-center px-12">
+              <span
+                class="py-4 w-full text-center font-thin text-5xl italic text-[#CBC9CF] border-b-4 pb-8 "
+                >Éducation</span
+              >
+            </div>
             <ul class="text-2xl text-[#CBC9CF] font-semibold">
-              <li class="w-full py-8 flex flex-col justify-start">
-                <span class="px-4">Chargé de projets informatiques <span class="font-mono text-base font-thin text-[#67666A]">| BAC+2</span></span>
+              <li class="w-full pt-4 flex flex-col justify-start">
+                <span class="p-4 pt-0">Chargé de projets informatiques <span class="font-mono text-base font-thin text-[#67666A]">| BAC+2</span></span>
                 <span class="px-4 font-thin font-mono text-[#67666A] text-lg italic">ETNA - École des Technologies Numériques Avancées - 94200 Ivry-sur-Seine</span>
               </li>
-              <li class="w-full py-8 flex flex-col justify-start">
-                <span class="px-4">Baccalauréat général <span class="font-mono text-base font-thin text-[#67666A]">| BAC</span></span>
-                <p class="ml-8 text-base font-thin font-mono text-[#67666A]">Spécialités: Mathématiques, Sciences Économiques et Sociales | Options: Maths expertes, Théâtre</p>
+              <li class="w-full pt-4 flex flex-col justify-start">
+                <span class="p-4 pt-0">Baccalauréat général <span class="font-mono text-base font-thin text-[#67666A]">| BAC (mention Très Bien)</span></span>
+                <p class="pb-4 ml-8 text-base font-thin font-mono text-[#67666A]">Spécialités: Mathématiques, Sciences Économiques et Sociales</p>
+                <p class="pb-4 ml-8 text-base font-thin font-mono text-[#67666A]">Options: Maths expertes, Théâtre</p>
                 <span class="px-4 font-thin font-mono text-[#67666A] text-lg italic">LGT André Boulloche - 93190 Livry-Gargan</span>
               </li> 
             </ul>
           </article>
         </section>
-        <section id="contact" class="min-h-screen">
+        <section id="contact" class="min-h-screen target:animate-fade-in">
           <article class="w-full flex flex-col items-start justify-start">
-            <span
-              class="py-4 pl-4 w-full font-thin text-5xl italic text-[#CBC9CF] border-b-2"
-              >Contact</span
-            >
+            <div class="w-full flex flex-row justify-center px-12">
+              <span
+                class="py-4 w-full text-center sm:text-start font-thin text-5xl italic text-[#CBC9CF] border-b-2"
+                >Contact</span
+              >
+            </div>
             <ul class="py-8 px-4 text-xl text-[#67666A] font-semibold font-mono">
               <li>Email: <a class="hover:text-[#CBC9CF] duration-300" href="mailto:phan_n@etna-alternance.net">phan_n@etna-alternance.net</a></li>
               <li>LinkedIn: <a class="hover:text-[#CBC9CF] duration-300" href="https://www.linkedin.com/in/nguyen-khai-phan-6b3194212" target="_blank">Nguyen Khai PHAN</a></li>
               <li>Instagram: <a class="hover:text-[#CBC9CF] duration-300" href="https://www.instagram.com/khai.iv/" target="_blank">@khai.iv</a></li>
             </ul>
           </article>          
+          <div class="flex flex-row justify-start px-4">
+            <a
+                href="./assets/CV_Nguyen_Khai_PHAN.pdf"
+                class="p-4 border bg-transparent font-thin text-base italic hover:bg-white hover:text-[#1E1E1F] duration-500 text-[#CBC9CF]"
+                download
+                >Télécharger mon CV
+            </a>
+          </div>
         </section>
       </main>
     </div>
